@@ -10,8 +10,14 @@ import UIKit
 
 class HabitatViewController: UITableViewController {
 
+    var animals: [Animal] = []
+    var animalList = AnimalList()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        animals = animalList.animalListPopulate()
+        print(animals)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

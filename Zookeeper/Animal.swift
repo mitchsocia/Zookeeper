@@ -23,5 +23,18 @@ class Animal {
         
     }
     
-    
+}
+
+struct AnimalList {
+    func animalListPopulate() -> [Animal] {
+        
+        let animal1 = Animal(species: "Lion", gender: "Female", name: "Diane", habitat: "Desert")
+        let animal2 = Animal(species: "Penguin", gender: "Male", name: "Darrell", habitat: "Ice")
+        let animal3 = Animal(species: "Tree Frog", gender: "Female", name: "Frida", habitat: "Jungle")
+        let animal4 = Animal(species: "Owl", gender: "Female", name: "Karen", habitat: "Forest")
+        
+        let animalArray = [animal1, animal2, animal3, animal4]
+        return animalArray
+        
+}
 }
