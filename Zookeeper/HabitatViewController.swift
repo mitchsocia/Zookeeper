@@ -11,12 +11,17 @@ import UIKit
 class HabitatViewController: UITableViewController {
 
     var animals: [Animal] = []
+    var habitats: [String] = []
     var animalList = AnimalList()
+    var habitatList = Habitats()
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
         animals = animalList.animalListPopulate()
+        habitats = habitatList.populateHabitats()
         print(animals)
+        print(habitats)
         
         // Do any additional setup after loading the view, typically from a nib.
     }
