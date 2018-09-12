@@ -36,13 +36,13 @@ class HabitatViewController: UITableViewController {
 extension HabitatViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return habitats.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "HabitatItem", for: indexPath)
-        cell.textLabel?.text = "TEXT"
+        cell.textLabel?.text = habitats[indexPath.row]
         
         return cell
     }

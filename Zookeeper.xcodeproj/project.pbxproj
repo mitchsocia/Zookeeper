@@ -17,6 +17,7 @@
 		7DFFD3122149846000DC38D9 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD3112149846000DC38D9 /* Animal.swift */; };
 		7DFFD314214988E000DC38D9 /* BabyAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD313214988E000DC38D9 /* BabyAnimal.swift */; };
 		7DFFD3162149901300DC38D9 /* Habitats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD3152149901300DC38D9 /* Habitats.swift */; };
+		7DFFD3182149969700DC38D9 /* HabitatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD3172149969700DC38D9 /* HabitatDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7DFFD3112149846000DC38D9 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		7DFFD313214988E000DC38D9 /* BabyAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyAnimal.swift; sourceTree = "<group>"; };
 		7DFFD3152149901300DC38D9 /* Habitats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habitats.swift; sourceTree = "<group>"; };
+		7DFFD3172149969700DC38D9 /* HabitatDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitatDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				7DFFD3112149846000DC38D9 /* Animal.swift */,
 				7DFFD313214988E000DC38D9 /* BabyAnimal.swift */,
 				7DFFD3152149901300DC38D9 /* Habitats.swift */,
+				7DFFD3172149969700DC38D9 /* HabitatDetailViewController.swift */,
 			);
 			path = Zookeeper;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				7DFFD2E621497FE700DC38D9 /* HabitatViewController.swift in Sources */,
 				7DFFD3122149846000DC38D9 /* Animal.swift in Sources */,
 				7DFFD2E421497FE700DC38D9 /* AppDelegate.swift in Sources */,
+				7DFFD3182149969700DC38D9 /* HabitatDetailViewController.swift in Sources */,
 				7DFFD3162149901300DC38D9 /* Habitats.swift in Sources */,
 				7DFFD314214988E000DC38D9 /* BabyAnimal.swift in Sources */,
 			);
