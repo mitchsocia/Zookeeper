@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7DFFD2E421497FE700DC38D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD2E321497FE700DC38D9 /* AppDelegate.swift */; };
-		7DFFD2E621497FE700DC38D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD2E521497FE700DC38D9 /* ViewController.swift */; };
+		7DFFD2E621497FE700DC38D9 /* HabitatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD2E521497FE700DC38D9 /* HabitatViewController.swift */; };
 		7DFFD2E921497FE700DC38D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFD2E721497FE700DC38D9 /* Main.storyboard */; };
 		7DFFD2EB21497FE800DC38D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFD2EA21497FE800DC38D9 /* Assets.xcassets */; };
 		7DFFD2EE21497FE800DC38D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFD2EC21497FE800DC38D9 /* LaunchScreen.storyboard */; };
 		7DFFD2F921497FE800DC38D9 /* ZookeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD2F821497FE800DC38D9 /* ZookeeperTests.swift */; };
 		7DFFD30421497FE800DC38D9 /* ZookeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD30321497FE800DC38D9 /* ZookeeperUITests.swift */; };
+		7DFFD3122149846000DC38D9 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD3112149846000DC38D9 /* Animals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		7DFFD2E021497FE700DC38D9 /* Zookeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zookeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFFD2E321497FE700DC38D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7DFFD2E521497FE700DC38D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DFFD2E521497FE700DC38D9 /* HabitatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitatViewController.swift; sourceTree = "<group>"; };
 		7DFFD2E821497FE700DC38D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DFFD2EA21497FE800DC38D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DFFD2ED21497FE800DC38D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		7DFFD2FF21497FE800DC38D9 /* ZookeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZookeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFFD30321497FE800DC38D9 /* ZookeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZookeeperUITests.swift; sourceTree = "<group>"; };
 		7DFFD30521497FE800DC38D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFFD3112149846000DC38D9 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				7DFFD2E321497FE700DC38D9 /* AppDelegate.swift */,
-				7DFFD2E521497FE700DC38D9 /* ViewController.swift */,
+				7DFFD2E521497FE700DC38D9 /* HabitatViewController.swift */,
 				7DFFD2E721497FE700DC38D9 /* Main.storyboard */,
 				7DFFD2EA21497FE800DC38D9 /* Assets.xcassets */,
 				7DFFD2EC21497FE800DC38D9 /* LaunchScreen.storyboard */,
 				7DFFD2EF21497FE800DC38D9 /* Info.plist */,
+				7DFFD3112149846000DC38D9 /* Animals.swift */,
 			);
 			path = Zookeeper;
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DFFD2E621497FE700DC38D9 /* ViewController.swift in Sources */,
+				7DFFD2E621497FE700DC38D9 /* HabitatViewController.swift in Sources */,
+				7DFFD3122149846000DC38D9 /* Animals.swift in Sources */,
 				7DFFD2E421497FE700DC38D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
