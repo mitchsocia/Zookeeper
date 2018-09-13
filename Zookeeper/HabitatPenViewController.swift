@@ -8,10 +8,13 @@
 
 import UIKit
 
-class HabitatDetailViewController: UITableViewController {
+class HabitatPenViewController: UITableViewController {
 
+    var animals: [Animal]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(animals)
 
         // Do any additional setup after loading the view.
     }
@@ -23,16 +26,16 @@ class HabitatDetailViewController: UITableViewController {
 
 }
 
-extension HabitatDetailViewController {
+extension HabitatPenViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return animals!.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "PenItem", for: indexPath)
-        cell.textLabel?.text = ""
+        cell.textLabel?.text = "\(animals![indexPath.row].species) Pen"
         
         return cell
     }

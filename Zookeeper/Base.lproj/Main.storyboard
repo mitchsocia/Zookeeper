@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="1048.8" y="148.87556221889056"/>
         </scene>
-        <!--Habitat Detail View Controller-->
+        <!--Habitat Pen View Controller-->
         <scene sceneID="90T-lt-OsI">
             <objects>
-                <tableViewController id="IsE-OE-JWs" customClass="HabitatDetailViewController" customModule="Zookeeper" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="IsE-OE-JWs" customClass="HabitatPenViewController" customModule="Zookeeper" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="CK3-cu-Baa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
