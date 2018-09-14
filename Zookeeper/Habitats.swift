@@ -10,6 +10,10 @@ import Foundation
 
 struct Habitats {
     
+//    
+//    let pens: [Pen]
+//    let name: String
+    
     func populateHabitats() -> [String] {
         
     let habitats = ["Forest", "Desert", "Jungle", "Ice"]
@@ -19,3 +23,14 @@ struct Habitats {
     }
     
 }
+//
+//struct Pen {
+//
+//    let animals: [Animal]
+//    let name: String
+//
+////    func generatePens() -> [String] {
+//
+//    }
+
+

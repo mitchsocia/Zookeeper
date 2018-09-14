@@ -16,8 +16,6 @@ class HabitatViewController: UITableViewController {
     var habitatList = Habitats()
     var habitatRow = ""
     
-   
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         animals = animalList.animalListPopulate()
@@ -39,7 +37,6 @@ class HabitatViewController: UITableViewController {
             habitatPenViewController.animals = filteredAnimalsArray()
         }
     }
-    
     
 }
 
@@ -104,7 +101,7 @@ extension HabitatViewController {
                 if animal.habitat == "Ice" {
                     habitatAnimals.append(animal)
                 }
-            }
+            } 
         default:
             break
 }

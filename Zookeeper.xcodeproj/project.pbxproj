@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DF66F98214AF029007B5141 /* AnimalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF66F97214AF029007B5141 /* AnimalDetailViewController.swift */; };
 		7DFFD2E421497FE700DC38D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD2E321497FE700DC38D9 /* AppDelegate.swift */; };
 		7DFFD2E621497FE700DC38D9 /* HabitatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFD2E521497FE700DC38D9 /* HabitatViewController.swift */; };
 		7DFFD2E921497FE700DC38D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFD2E721497FE700DC38D9 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DF66F97214AF029007B5141 /* AnimalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewController.swift; sourceTree = "<group>"; };
 		7DFFD2E021497FE700DC38D9 /* Zookeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zookeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFFD2E321497FE700DC38D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DFFD2E521497FE700DC38D9 /* HabitatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitatViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				7DFFD2E321497FE700DC38D9 /* AppDelegate.swift */,
 				7DFFD2E521497FE700DC38D9 /* HabitatViewController.swift */,
 				7DFFD3172149969700DC38D9 /* HabitatPenViewController.swift */,
+				7DF66F97214AF029007B5141 /* AnimalDetailViewController.swift */,
 				7DFFD2E721497FE700DC38D9 /* Main.storyboard */,
 				7DFFD2EA21497FE800DC38D9 /* Assets.xcassets */,
 				7DFFD2EC21497FE800DC38D9 /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 				7DFFD2E421497FE700DC38D9 /* AppDelegate.swift in Sources */,
 				7DFFD3182149969700DC38D9 /* HabitatPenViewController.swift in Sources */,
 				7DFFD3162149901300DC38D9 /* Habitats.swift in Sources */,
+				7DF66F98214AF029007B5141 /* AnimalDetailViewController.swift in Sources */,
 				7DFFD314214988E000DC38D9 /* BabyAnimal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
